@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="vendor/bootstrap.min.css" />
+    <script src="vendor/jquery-3.3.1.min.js"></script>
+    <script src="scripts/client.js"></script>
+    <title>Express Quotes</title>
+</head>
+<body>
+    <h1>Express Quotes</h1>
+    <section>
+        <p>Instructions</p>
+        <ol>
+           <li>Enter Quote and Author</li> 
+           <li>Refresh the list</li> 
+        </ol>
+    </section>
+    <div id ="input">
+        <input type="text" placeholder="Quote" id="quoteBody">
+        <input type="text" placeholder="Author" id="author">
+        <button id="newButton">Add Quote</button>
+        <button id="refreshButton">Refresh List</button>
+    </div>
+    <div id="output">
+        <ul id="quoteOut"></ul>
+        <ul id="authorOut"></ul>
+    </div>
+</body>
+</html>
